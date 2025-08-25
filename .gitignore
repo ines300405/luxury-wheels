@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Ambiente virtual
+venv/
+env/
+*.venv
+
+# PyCharm / IDEs
+.idea/
+*.iml
+
+# Arquivos de configuração sensíveis
+.env
+*.secret
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.DS_Store
+
+# Pasta de imagens (opcional, se forem grandes e já enviadas separadamente)
+# photo_cars/
