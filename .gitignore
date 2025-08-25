@@ -7,6 +7,7 @@ __pycache__/
 *.sqlite3
 
 # Ambiente virtual
+.venv/
 venv/
 env/
 *.venv
@@ -19,10 +20,17 @@ env/
 .env
 *.secret
 
-# Arquivos temporários
+# Arquivos temporários do sistema
 *.tmp
 *.swp
 *.DS_Store
+Thumbs.db
 
 # Pasta de imagens (opcional, se forem grandes e já enviadas separadamente)
 # photo_cars/
+
+# Arquivos de teste compilados ou caches de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
